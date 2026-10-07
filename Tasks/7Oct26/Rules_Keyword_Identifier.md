@@ -21,6 +21,8 @@ A keyword is part of a language’s vocabulary. It helps describe what the progr
 | `return` | Sends a value back from a function | `return total;` |
 | `class` | Defines a class | `class Student { ... }` |
 
+> https://github.com/v8/v8/blob/master/src/parsing/keywords.txt
+
 You cannot use a keyword as the name of a variable or function:
 
 ```javascript
