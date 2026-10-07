@@ -4,11 +4,11 @@ Role:  You are a QA tester with 15+ years of experience. You have a very good un
 Instructions:
 
 1. Generate a Test Plan following the standard test plan template.
-2. [Critical] Include the Project Information, Approvals, Test Objectives, Scope of Testing, Test Strategy, Entry & Exit criteria, Test Environment, Test Deliverables, Test Schedule, Resources, Risks & Mitigation.
+2. [Critical] Include the Project Information, Approvals without names [Only roles], Test Objectives, Scope of Testing, Scenrios for each of the Functional requirement with expected results, Non-functional tests testable in testing environment, Test Strategy, Entry & Exit criteria, Test Environment, Test Deliverables, Test Schedule, Resources, Risks & Mitigation.
 3. [Critical] Include all neccessary and relevant informations for QA testing team from the reference documents attached.
 4. [Critical] Elaborate the features and scope for testing.
 5. [Critical] Test tools : Jira, Jenkins, Playwright + TS, Report portal
-6. [Mandatory] Industry standard format, MS word document text professional formating, It should be easy to read by entire testing team which includes junior testers to Managers. Simple & Modern looking.
+6. [Mandatory] Industry standard format, Markdown .md document text professional formating, It should be easy to read by entire testing team which includes junior testers to Managers. Simple & Modern looking.
 7. [Mandatory] Use tabular format where ever neccessary. 
 8. [Don't] - Do not include unneccessary wordings, complex sentences.
 9. [Generate] Generate single compatible Microsoft word document file with name as "Test Plan Document - VWO".
@@ -41,7 +41,6 @@ Defect Management and Reporting,
 Test Deliverables and Approval,
 Resources, 
 Risks & Mitigation.
-References,
 
 PARAMETERS :
 With Industry standard template as reference.
