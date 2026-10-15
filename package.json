@@ -1,0 +1,23 @@
+{
+  "name": "learningjsts4x",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/vinodk1128/LearningJSTS4x#readme",
+  "bugs": {
+    "url": "https://github.com/vinodk1128/LearningJSTS4x/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinodk1128/LearningJSTS4x.git"
+  },
+  "license": "ISC",
+  "author": "Vinod Kumar M",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
