@@ -8,17 +8,16 @@ Both words contain the same letters
 */
 
 let first = "evil";
-let second = "live";
+let second = "lived";
 
-const normalize = (str) => str.toLowerCase().replace(/\s/g, "");
+if (first.length !== second.length) { console.log("NO"); }
+else {
+    const normalize = (str) => str.toLowerCase().replace(/\s/g, "");
 
-  const a = [...normalize(first)].sort().join("");
-  const b = [...normalize(second)].sort().join("");
+    const a = [...normalize(first)].sort().join("");
+    const b = [...normalize(second)].sort().join("");
 
-if(a===b){
-    console.log("YES");
-} else {
-    console.log("NO");
+    console.log(a === b ? "YES" : "NO");
+
 }
-
 // Complexity: O(n log n) time for sorting, O(n) extra space.

@@ -5,6 +5,6 @@ const trimmedStr = str.trim();
 let reverseStr = "";
 
 for (let i = trimmedStr.length-1; i >= 0; i--){
-    reverseStr = reverseStr + trimmedStr.charAt(i);
+    reverseStr += trimmedStr.charAt(i);
 }
 console.log(reverseStr);
