@@ -16,3 +16,14 @@
 // let a = 10;
 //     ↓
 // a = 10 ✅
+
+
+// test2();    // ReferenceError: Cannot access 'a' before initialization
+function test2 () {
+    console.log("something running");
+}
+
+// Temprory Dead Zone
+let a; // hoisting : we get ReferenceError
+console.log(a);
+a=10;  // It reaches TDZ when variable is assigned after its been called

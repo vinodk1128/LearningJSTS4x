@@ -21,7 +21,7 @@ even after that outer function has finished running.
 function makeCounter() {
   let count = 0;
 
-  return function () {
+  return function new2() {
     count += 1;
     return count;
   };
