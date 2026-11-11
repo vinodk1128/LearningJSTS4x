@@ -1,0 +1,20 @@
+sudo dnf install -y \
+  alsa-lib atk at-spi2-atk cups-libs dbus-glib \
+  gdk-pixbuf2 glib2 gtk3 libdrm libgbm \
+  libnotify libX11 libXcomposite libXcursor libXdamage \
+  libXext libXi libXrandr libXScrnSaver libXtst \
+  mesa-libgbm nspr nss pango xorg-x11-fonts-Type1
+
+
+sudo npx playwright install-deps
+
+
+
+Note: Playwright does not support Fedora OS officially.
+
+
+Verify It Works (and Fix Missing Libraries)
+
+npx playwright open https://example.com
+
+
