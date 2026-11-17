@@ -25,7 +25,7 @@ function clickLogin() {
 openBrowser()
     .then(function (msg) {
         console.log("Step 1", msg);
-        return goToLogin();
+        return goToLogin(); // this step returns the next function which returns a string and its used by the .then function
     }).then(function (msg) {
         console.log("Step 2 :", msg);
         return enterCredentials();

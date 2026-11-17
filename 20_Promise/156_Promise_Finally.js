@@ -11,5 +11,5 @@ apiCall.then(function(data){
     console.log(error);
 }).finally(function(){
     // Always Executed!
-     console.log("I will be executed anyhow!!");
+     console.log("Finally will be executed anyhow!!");
 });

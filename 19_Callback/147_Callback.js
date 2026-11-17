@@ -5,7 +5,7 @@ function placeOrder(item, callback){
 }
 
 
-// // First Way
+// // 1. First Way
 // function CompleteOrderPrint(){
 //     console.log("Normal Fn");
 // }
@@ -13,22 +13,19 @@ function placeOrder(item, callback){
 // placeOrder("Burger", CompleteOrderPrint);
 
 
-
-// // Sencond Way Anoy
+// // 2. Second Way Annomous
 // placeOrder("Burger", function(){
 //     console.log("Order is ready!, pick it up!");
 // });
 
 
-// Third Way - Arrow Fn
+// 3. Third Way - Arrow Fn
 placeOrder("Burger", () => {
     console.log("Arrow Fn, I am also a function wihtout name!")
 });
 
-test('has title', async ({ page }) => {
-
-});
-
+test('has title', async ({ page }) => {});
+// test(TITLE, CALLBACK-F(n));
 
 // test('has title', async ({ page }) => {
 //   await page.goto('https://playwright.dev/');
